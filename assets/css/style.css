@@ -1,0 +1,50 @@
+/**
+* Portfolio CSS
+**/
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+footer {
+    background: #666666;
+    color: #777777;
+}
+
+h2 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    text-align: left;
+    color: #4aaaa5;
+}
+
+header{
+    background: #ffffff;
+    height: 70px;
+    border-bottom: 1px solid #777777;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+section {
+    color: #cccccc;
+    float: right;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.about {
+    height: 50px;
+    border-bottom: 1px solid #777777;
+}
+.name {
+    color: #ffffff;
+    background: #4aaaa5;
+    float: left;
+    font-size: 32px;
+    height: 70px;
+    width: 240px;
+}
+
+
