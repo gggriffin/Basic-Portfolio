@@ -53,7 +53,7 @@ section {
     font-size: 18px;
 }
 
-img {
+.profile-pic {
     width: 220x;
     height: 120px;
     transform: rotate(90deg);
@@ -111,6 +111,12 @@ input {
 
 }
 
+.gallery {
+    width: 200px;
+    height: 150px;
+    margin: 15px 20px;
+}
+
 .message  {
     height: 140px;
     width: 900px;
@@ -124,11 +130,41 @@ input {
     color: #ffffff;
     background: #4aaaa5;
     float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 28px;
     font-weight: bold;
     height: 70px;
     margin-left: 220px;
-    width: 240px;
+    width: 280px;
+}
+
+
+
+.picture1 {
+    position: relative;
+    width: 100%;
+
+}
+
+.picture-text {
+    position: absolute;
+    background: #4aaaa5;
+    text-align: center;
+    color: #ffffff;
+    width: 200px;
+    bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px
+}
+
+.portfolio-content {
+    width: 960px;
+    height: 720px;
+    border: 1px solid #9e9c9c;
+    box-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    background-color: #ffffff;
 }
 
 
